@@ -19,7 +19,9 @@
     [super viewDidLoad];
     
     DSLStepper *stepper = [[DSLStepper alloc] initWithFrame:CGRectMake(100, 100, 130, 30)];
+    //最小值
     stepper.minimum = 10;
+    //最大值
     stepper.maximum = 500;
     [self.view addSubview:stepper];
 }

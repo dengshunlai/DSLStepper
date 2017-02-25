@@ -16,6 +16,8 @@
 		DDDBC1441E61398F0049E0E4 /* DSLStepperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC1431E61398F0049E0E4 /* DSLStepperTests.m */; };
 		DDDBC14F1E61398F0049E0E4 /* DSLStepperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC14E1E61398F0049E0E4 /* DSLStepperUITests.m */; };
 		DDDBC1631E615A040049E0E4 /* DSLStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC1621E615A040049E0E4 /* DSLStepper.m */; };
+		DDDBC1651E61DFF70049E0E4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC1641E61DFF70049E0E4 /* README.md */; };
+		DDDBC1671E61DFFE0049E0E4 /* snapshot.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDBC1661E61DFFE0049E0E4 /* snapshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		DDDBC1501E61398F0049E0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDDBC1611E615A040049E0E4 /* DSLStepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLStepper.h; sourceTree = "<group>"; };
 		DDDBC1621E615A040049E0E4 /* DSLStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLStepper.m; sourceTree = "<group>"; };
+		DDDBC1641E61DFF70049E0E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DDDBC1661E61DFFE0049E0E4 /* snapshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 		DDDBC11D1E61398F0049E0E4 = {
 			isa = PBXGroup;
 			children = (
+				DDDBC1641E61DFF70049E0E4 /* README.md */,
+				DDDBC1661E61DFFE0049E0E4 /* snapshot.png */,
 				DDDBC1601E615A040049E0E4 /* DSLStepper */,
 				DDDBC1281E61398F0049E0E4 /* DSLStepperExample */,
 				DDDBC1421E61398F0049E0E4 /* DSLStepperTests */,
@@ -265,6 +271,7 @@
 				DDDBC1391E61398F0049E0E4 /* LaunchScreen.storyboard in Resources */,
 				DDDBC1361E61398F0049E0E4 /* Assets.xcassets in Resources */,
 				DDDBC1341E61398F0049E0E4 /* Main.storyboard in Resources */,
+				DDDBC1671E61DFFE0049E0E4 /* snapshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +298,7 @@
 			files = (
 				DDDBC1311E61398F0049E0E4 /* ViewController.m in Sources */,
 				DDDBC1631E615A040049E0E4 /* DSLStepper.m in Sources */,
+				DDDBC1651E61DFF70049E0E4 /* README.md in Sources */,
 				DDDBC12E1E61398F0049E0E4 /* AppDelegate.m in Sources */,
 				DDDBC12B1E61398F0049E0E4 /* main.m in Sources */,
 			);
@@ -532,6 +540,7 @@
 				DDDBC1551E61398F0049E0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDDBC1561E61398F0049E0E4 /* Build configuration list for PBXNativeTarget "DSLStepperTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +549,7 @@
 				DDDBC1581E61398F0049E0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDDBC1591E61398F0049E0E4 /* Build configuration list for PBXNativeTarget "DSLStepperUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +558,7 @@
 				DDDBC15B1E61398F0049E0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
