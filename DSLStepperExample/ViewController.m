@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DSLStepper.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    DSLStepper *stepper = [[DSLStepper alloc] initWithFrame:CGRectMake(100, 100, 130, 30)];
+    stepper.minimum = 10;
+    stepper.maximum = 500;
+    [self.view addSubview:stepper];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

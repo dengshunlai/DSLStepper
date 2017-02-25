@@ -15,6 +15,7 @@
 		DDDBC1391E61398F0049E0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDBC1371E61398F0049E0E4 /* LaunchScreen.storyboard */; };
 		DDDBC1441E61398F0049E0E4 /* DSLStepperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC1431E61398F0049E0E4 /* DSLStepperTests.m */; };
 		DDDBC14F1E61398F0049E0E4 /* DSLStepperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC14E1E61398F0049E0E4 /* DSLStepperUITests.m */; };
+		DDDBC1631E615A040049E0E4 /* DSLStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC1621E615A040049E0E4 /* DSLStepper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DDDBC14A1E61398F0049E0E4 /* DSLStepperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSLStepperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDBC14E1E61398F0049E0E4 /* DSLStepperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSLStepperUITests.m; sourceTree = "<group>"; };
 		DDDBC1501E61398F0049E0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDBC1611E615A040049E0E4 /* DSLStepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLStepper.h; sourceTree = "<group>"; };
+		DDDBC1621E615A040049E0E4 /* DSLStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLStepper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +84,8 @@
 		DDDBC11D1E61398F0049E0E4 = {
 			isa = PBXGroup;
 			children = (
-				DDDBC1281E61398F0049E0E4 /* DSLStepper */,
+				DDDBC1601E615A040049E0E4 /* DSLStepper */,
+				DDDBC1281E61398F0049E0E4 /* DSLStepperExample */,
 				DDDBC1421E61398F0049E0E4 /* DSLStepperTests */,
 				DDDBC14D1E61398F0049E0E4 /* DSLStepperUITests */,
 				DDDBC1271E61398F0049E0E4 /* Products */,
@@ -98,7 +102,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDDBC1281E61398F0049E0E4 /* DSLStepper */ = {
+		DDDBC1281E61398F0049E0E4 /* DSLStepperExample */ = {
 			isa = PBXGroup;
 			children = (
 				DDDBC12C1E61398F0049E0E4 /* AppDelegate.h */,
@@ -111,7 +115,7 @@
 				DDDBC13A1E61398F0049E0E4 /* Info.plist */,
 				DDDBC1291E61398F0049E0E4 /* Supporting Files */,
 			);
-			path = DSLStepper;
+			path = DSLStepperExample;
 			sourceTree = "<group>";
 		};
 		DDDBC1291E61398F0049E0E4 /* Supporting Files */ = {
@@ -138,6 +142,15 @@
 				DDDBC1501E61398F0049E0E4 /* Info.plist */,
 			);
 			path = DSLStepperUITests;
+			sourceTree = "<group>";
+		};
+		DDDBC1601E615A040049E0E4 /* DSLStepper */ = {
+			isa = PBXGroup;
+			children = (
+				DDDBC1611E615A040049E0E4 /* DSLStepper.h */,
+				DDDBC1621E615A040049E0E4 /* DSLStepper.m */,
+			);
+			path = DSLStepper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDBC1311E61398F0049E0E4 /* ViewController.m in Sources */,
+				DDDBC1631E615A040049E0E4 /* DSLStepper.m in Sources */,
 				DDDBC12E1E61398F0049E0E4 /* AppDelegate.m in Sources */,
 				DDDBC12B1E61398F0049E0E4 /* main.m in Sources */,
 			);
@@ -428,7 +442,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QTRV8G9WAU;
-				INFOPLIST_FILE = DSLStepper/Info.plist;
+				INFOPLIST_FILE = DSLStepperExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengshunlai.DSLStepper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,7 +455,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QTRV8G9WAU;
-				INFOPLIST_FILE = DSLStepper/Info.plist;
+				INFOPLIST_FILE = DSLStepperExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengshunlai.DSLStepper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
