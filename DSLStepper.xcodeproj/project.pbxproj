@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDDBC12B1E61398F0049E0E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC12A1E61398F0049E0E4 /* main.m */; };
+		DDDBC12E1E61398F0049E0E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC12D1E61398F0049E0E4 /* AppDelegate.m */; };
+		DDDBC1311E61398F0049E0E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC1301E61398F0049E0E4 /* ViewController.m */; };
+		DDDBC1341E61398F0049E0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDBC1321E61398F0049E0E4 /* Main.storyboard */; };
+		DDDBC1361E61398F0049E0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDBC1351E61398F0049E0E4 /* Assets.xcassets */; };
+		DDDBC1391E61398F0049E0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDBC1371E61398F0049E0E4 /* LaunchScreen.storyboard */; };
+		DDDBC1441E61398F0049E0E4 /* DSLStepperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC1431E61398F0049E0E4 /* DSLStepperTests.m */; };
+		DDDBC14F1E61398F0049E0E4 /* DSLStepperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC14E1E61398F0049E0E4 /* DSLStepperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDDBC1401E61398F0049E0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDBC11E1E61398F0049E0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDBC1251E61398F0049E0E4;
+			remoteInfo = DSLStepper;
+		};
+		DDDBC14B1E61398F0049E0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDBC11E1E61398F0049E0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDBC1251E61398F0049E0E4;
+			remoteInfo = DSLStepper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDDBC1261E61398F0049E0E4 /* DSLStepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSLStepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDBC12A1E61398F0049E0E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDDBC12C1E61398F0049E0E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDDBC12D1E61398F0049E0E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDDBC12F1E61398F0049E0E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDDBC1301E61398F0049E0E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDDBC1331E61398F0049E0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDDBC1351E61398F0049E0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDDBC1381E61398F0049E0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDDBC13A1E61398F0049E0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDBC13F1E61398F0049E0E4 /* DSLStepperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSLStepperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDBC1431E61398F0049E0E4 /* DSLStepperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSLStepperTests.m; sourceTree = "<group>"; };
+		DDDBC1451E61398F0049E0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDBC14A1E61398F0049E0E4 /* DSLStepperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSLStepperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDBC14E1E61398F0049E0E4 /* DSLStepperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSLStepperUITests.m; sourceTree = "<group>"; };
+		DDDBC1501E61398F0049E0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDBC1231E61398F0049E0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDBC13C1E61398F0049E0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDBC1471E61398F0049E0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDDBC11D1E61398F0049E0E4 = {
+			isa = PBXGroup;
+			children = (
+				DDDBC1281E61398F0049E0E4 /* DSLStepper */,
+				DDDBC1421E61398F0049E0E4 /* DSLStepperTests */,
+				DDDBC14D1E61398F0049E0E4 /* DSLStepperUITests */,
+				DDDBC1271E61398F0049E0E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDDBC1271E61398F0049E0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDDBC1261E61398F0049E0E4 /* DSLStepper.app */,
+				DDDBC13F1E61398F0049E0E4 /* DSLStepperTests.xctest */,
+				DDDBC14A1E61398F0049E0E4 /* DSLStepperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDDBC1281E61398F0049E0E4 /* DSLStepper */ = {
+			isa = PBXGroup;
+			children = (
+				DDDBC12C1E61398F0049E0E4 /* AppDelegate.h */,
+				DDDBC12D1E61398F0049E0E4 /* AppDelegate.m */,
+				DDDBC12F1E61398F0049E0E4 /* ViewController.h */,
+				DDDBC1301E61398F0049E0E4 /* ViewController.m */,
+				DDDBC1321E61398F0049E0E4 /* Main.storyboard */,
+				DDDBC1351E61398F0049E0E4 /* Assets.xcassets */,
+				DDDBC1371E61398F0049E0E4 /* LaunchScreen.storyboard */,
+				DDDBC13A1E61398F0049E0E4 /* Info.plist */,
+				DDDBC1291E61398F0049E0E4 /* Supporting Files */,
+			);
+			path = DSLStepper;
+			sourceTree = "<group>";
+		};
+		DDDBC1291E61398F0049E0E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDDBC12A1E61398F0049E0E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDDBC1421E61398F0049E0E4 /* DSLStepperTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDBC1431E61398F0049E0E4 /* DSLStepperTests.m */,
+				DDDBC1451E61398F0049E0E4 /* Info.plist */,
+			);
+			path = DSLStepperTests;
+			sourceTree = "<group>";
+		};
+		DDDBC14D1E61398F0049E0E4 /* DSLStepperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDBC14E1E61398F0049E0E4 /* DSLStepperUITests.m */,
+				DDDBC1501E61398F0049E0E4 /* Info.plist */,
+			);
+			path = DSLStepperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDBC1251E61398F0049E0E4 /* DSLStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDBC1531E61398F0049E0E4 /* Build configuration list for PBXNativeTarget "DSLStepper" */;
+			buildPhases = (
+				DDDBC1221E61398F0049E0E4 /* Sources */,
+				DDDBC1231E61398F0049E0E4 /* Frameworks */,
+				DDDBC1241E61398F0049E0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSLStepper;
+			productName = DSLStepper;
+			productReference = DDDBC1261E61398F0049E0E4 /* DSLStepper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDDBC13E1E61398F0049E0E4 /* DSLStepperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDBC1561E61398F0049E0E4 /* Build configuration list for PBXNativeTarget "DSLStepperTests" */;
+			buildPhases = (
+				DDDBC13B1E61398F0049E0E4 /* Sources */,
+				DDDBC13C1E61398F0049E0E4 /* Frameworks */,
+				DDDBC13D1E61398F0049E0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDBC1411E61398F0049E0E4 /* PBXTargetDependency */,
+			);
+			name = DSLStepperTests;
+			productName = DSLStepperTests;
+			productReference = DDDBC13F1E61398F0049E0E4 /* DSLStepperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDDBC1491E61398F0049E0E4 /* DSLStepperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDBC1591E61398F0049E0E4 /* Build configuration list for PBXNativeTarget "DSLStepperUITests" */;
+			buildPhases = (
+				DDDBC1461E61398F0049E0E4 /* Sources */,
+				DDDBC1471E61398F0049E0E4 /* Frameworks */,
+				DDDBC1481E61398F0049E0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDBC14C1E61398F0049E0E4 /* PBXTargetDependency */,
+			);
+			name = DSLStepperUITests;
+			productName = DSLStepperUITests;
+			productReference = DDDBC14A1E61398F0049E0E4 /* DSLStepperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDBC11E1E61398F0049E0E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "邓顺来";
+				TargetAttributes = {
+					DDDBC1251E61398F0049E0E4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QTRV8G9WAU;
+						ProvisioningStyle = Automatic;
+					};
+					DDDBC13E1E61398F0049E0E4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QTRV8G9WAU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDDBC1251E61398F0049E0E4;
+					};
+					DDDBC1491E61398F0049E0E4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QTRV8G9WAU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDDBC1251E61398F0049E0E4;
+					};
+				};
+			};
+			buildConfigurationList = DDDBC1211E61398F0049E0E4 /* Build configuration list for PBXProject "DSLStepper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDDBC11D1E61398F0049E0E4;
+			productRefGroup = DDDBC1271E61398F0049E0E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDBC1251E61398F0049E0E4 /* DSLStepper */,
+				DDDBC13E1E61398F0049E0E4 /* DSLStepperTests */,
+				DDDBC1491E61398F0049E0E4 /* DSLStepperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDBC1241E61398F0049E0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDBC1391E61398F0049E0E4 /* LaunchScreen.storyboard in Resources */,
+				DDDBC1361E61398F0049E0E4 /* Assets.xcassets in Resources */,
+				DDDBC1341E61398F0049E0E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDBC13D1E61398F0049E0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDBC1481E61398F0049E0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDBC1221E61398F0049E0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDBC1311E61398F0049E0E4 /* ViewController.m in Sources */,
+				DDDBC12E1E61398F0049E0E4 /* AppDelegate.m in Sources */,
+				DDDBC12B1E61398F0049E0E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDBC13B1E61398F0049E0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDBC1441E61398F0049E0E4 /* DSLStepperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDBC1461E61398F0049E0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDBC14F1E61398F0049E0E4 /* DSLStepperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDDBC1411E61398F0049E0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDBC1251E61398F0049E0E4 /* DSLStepper */;
+			targetProxy = DDDBC1401E61398F0049E0E4 /* PBXContainerItemProxy */;
+		};
+		DDDBC14C1E61398F0049E0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDBC1251E61398F0049E0E4 /* DSLStepper */;
+			targetProxy = DDDBC14B1E61398F0049E0E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDDBC1321E61398F0049E0E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDBC1331E61398F0049E0E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDDBC1371E61398F0049E0E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDBC1381E61398F0049E0E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDDBC1511E61398F0049E0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDDBC1521E61398F0049E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDBC1541E61398F0049E0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTRV8G9WAU;
+				INFOPLIST_FILE = DSLStepper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengshunlai.DSLStepper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDDBC1551E61398F0049E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTRV8G9WAU;
+				INFOPLIST_FILE = DSLStepper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengshunlai.DSLStepper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDDBC1571E61398F0049E0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QTRV8G9WAU;
+				INFOPLIST_FILE = DSLStepperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengshunlai.DSLStepperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSLStepper.app/DSLStepper";
+			};
+			name = Debug;
+		};
+		DDDBC1581E61398F0049E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QTRV8G9WAU;
+				INFOPLIST_FILE = DSLStepperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengshunlai.DSLStepperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSLStepper.app/DSLStepper";
+			};
+			name = Release;
+		};
+		DDDBC15A1E61398F0049E0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QTRV8G9WAU;
+				INFOPLIST_FILE = DSLStepperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengshunlai.DSLStepperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DSLStepper;
+			};
+			name = Debug;
+		};
+		DDDBC15B1E61398F0049E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QTRV8G9WAU;
+				INFOPLIST_FILE = DSLStepperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengshunlai.DSLStepperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DSLStepper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDBC1211E61398F0049E0E4 /* Build configuration list for PBXProject "DSLStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDBC1511E61398F0049E0E4 /* Debug */,
+				DDDBC1521E61398F0049E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDBC1531E61398F0049E0E4 /* Build configuration list for PBXNativeTarget "DSLStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDBC1541E61398F0049E0E4 /* Debug */,
+				DDDBC1551E61398F0049E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDDBC1561E61398F0049E0E4 /* Build configuration list for PBXNativeTarget "DSLStepperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDBC1571E61398F0049E0E4 /* Debug */,
+				DDDBC1581E61398F0049E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDDBC1591E61398F0049E0E4 /* Build configuration list for PBXNativeTarget "DSLStepperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDBC15A1E61398F0049E0E4 /* Debug */,
+				DDDBC15B1E61398F0049E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDBC11E1E61398F0049E0E4 /* Project object */;
+}
