@@ -13,6 +13,14 @@ colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
+@interface DSLStepper ()
+
+@property (copy, nonatomic) void (^valueDidChangeBlock)(NSInteger value);
+@property (copy, nonatomic) void (^didClickBtnBlock)(NSInteger value);
+@property (copy, nonatomic) void (^didClickDoneBlock)(NSInteger value);
+
+@end
+
 @implementation DSLStepper
 
 - (instancetype)initWithCoder:(NSCoder *)coder
@@ -148,11 +156,20 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
             if (_value > _maximum) {
                 _value = _maximum;
                 _textField.text = @(_value).stringValue;
+                if (self.valueDidChangeBlock) {
+                    self.valueDidChangeBlock(_maximum);
+                }
             }
         });
     }
+    NSInteger oldValue = _value;
     _value = value;
     _textField.text = @(_value).stringValue;
+    if (value <= _maximum && oldValue != value) {
+        if (self.valueDidChangeBlock) {
+            self.valueDidChangeBlock(value);
+        }
+    }
 }
 
 - (void)setMinimum:(NSInteger)minimum
@@ -200,6 +217,9 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
     if (_value < _maximum) {
         self.value += 1;
     }
+    if (self.didClickBtnBlock) {
+        self.didClickBtnBlock(self.value);
+    }
 }
 
 - (void)decrement:(UIButton *)sender
@@ -207,11 +227,21 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
     if (_value > _minimum) {
         self.value -= 1;
     }
+    if (self.didClickBtnBlock) {
+        self.didClickBtnBlock(self.value);
+    }
 }
 
 - (void)done:(UIBarButtonItem *)sender
 {
     [_textField resignFirstResponder];
+    if (self.didClickDoneBlock) {
+        if (self.value > _maximum) {
+            self.didClickDoneBlock(_maximum);
+        } else {
+            self.didClickDoneBlock(self.value);
+        }
+    }
 }
 
 @end

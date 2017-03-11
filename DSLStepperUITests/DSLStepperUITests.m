@@ -37,4 +37,29 @@
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
+- (void)testMaximum {
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app.buttons[@"\u8fdb\u5165Demo"] tap];
+    
+    XCUIElement *textField = [[[[[[[app.otherElements containingType:XCUIElementTypeNavigationBar identifier:@"View"] childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther] elementBoundByIndex:0] childrenMatchingType:XCUIElementTypeTextField].element;
+    [textField tap];
+    [textField typeText:@"99999999"];
+    [app.toolbars.buttons[@"Done"] tap];
+}
+
+- (void)testMinimum {
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app.buttons[@"\u8fdb\u5165Demo"] tap];
+    
+    XCUIElement *textField = [[[[[[[app.otherElements containingType:XCUIElementTypeNavigationBar identifier:@"View"] childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther] elementBoundByIndex:0] childrenMatchingType:XCUIElementTypeTextField].element;
+    [textField tap];
+    
+    XCUIElement *key = app.keys[@"\u522a\u9664"];
+    [key tap];
+    [key tap];
+    [key tap];
+    [textField typeText:@"3"];
+    [app.toolbars.buttons[@"Done"] tap];
+}
+
 @end

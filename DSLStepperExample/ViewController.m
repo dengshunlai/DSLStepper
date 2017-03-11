@@ -11,6 +11,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet DSLStepper *stepperIB;
+
 @end
 
 @implementation ViewController
@@ -24,6 +26,16 @@
     //最大值
     stepper.maximum = 500;
     [self.view addSubview:stepper];
+    
+    [stepper setValueDidChangeBlock:^(NSInteger value) {
+        NSLog(@"stepper.value = %ld",value);
+    }];
+//    [stepper setDidClickBtnBlock:^(NSInteger value) {
+//        NSLog(@"stepper.value = %ld",value);
+//    }];
+//    [stepper setDidClickDoneBlock:^(NSInteger value) {
+//        NSLog(@"stepper.value = %ld",value);
+//    }];
 }
 
 - (void)didReceiveMemoryWarning {

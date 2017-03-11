@@ -89,6 +89,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6Ti-Oy-0no"/>
+                    <connections>
+                        <outlet property="stepperIB" destination="h3f-73-inc" id="TkV-fl-5rj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C1e-4R-nuK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

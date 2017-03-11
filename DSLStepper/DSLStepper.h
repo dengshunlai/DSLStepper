@@ -72,4 +72,19 @@ IB_DESIGNABLE
  */
 @property (assign, nonatomic) IBInspectable CGFloat buttionFontSize;
 
+/**
+ value变化后触发block
+ */
+- (void)setValueDidChangeBlock:(void (^)(NSInteger value))block;
+
+/**
+ 点击 - + 按钮后触发block（value已发生变化）
+ */
+- (void)setDidClickBtnBlock:(void (^)(NSInteger value))didClickBtnBlock;
+
+/**
+ 点击Done后触发block
+ */
+- (void)setDidClickDoneBlock:(void (^)(NSInteger value))didClickDoneBlock;
+
 @end
