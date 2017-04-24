@@ -216,9 +216,9 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 {
     if (_value < _maximum) {
         self.value += 1;
-    }
-    if (self.didClickBtnBlock) {
-        self.didClickBtnBlock(self.value);
+        if (self.didClickBtnBlock) {
+            self.didClickBtnBlock(self.value);
+        }
     }
 }
 
@@ -226,9 +226,9 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 {
     if (_value > _minimum) {
         self.value -= 1;
-    }
-    if (self.didClickBtnBlock) {
-        self.didClickBtnBlock(self.value);
+        if (self.didClickBtnBlock) {
+            self.didClickBtnBlock(self.value);
+        }
     }
 }
 
