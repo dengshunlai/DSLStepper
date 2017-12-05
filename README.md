@@ -1,5 +1,5 @@
 # DSLStepper
-##使用：
+### 使用：
 
 ```
 #import "DSLStepper.h"
@@ -12,5 +12,5 @@ stepper.maximum = 500;
 [self.view addSubview:stepper];
 
 ```
-##效果图：
+### 效果图：
 ![](https://github.com/dengshunlai/DSLStepper/raw/master/snapshot.png)
